@@ -3,5 +3,13 @@ int calculate() {
 }
 
 void main(){
-  print(calculate());
+
+  String nome = 'Dennis';
+  int idade = 23;
+  String linguagem = 'Dart';
+
+  print('\nEu sou $nome \n'
+      'Minha idade é $idade anos\n'
+      'Estou gostando muito de aprender $linguagem');
+
 }
