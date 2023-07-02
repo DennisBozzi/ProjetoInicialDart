@@ -25,8 +25,8 @@ void Geek() {
   int contador = 0;
   int gasto = 2;
 
-  print(
-      '\n\nEu tenho $energiaTotal de energia e a cada volta eu gasto $gasto de energia.');
+  print('\n\n'
+      'Eu tenho $energiaTotal de energia e a cada volta eu gasto $gasto de energia.');
 
   while (energia > 0) {
     contador++;
@@ -34,5 +34,4 @@ void Geek() {
   }
 
   print('Eu dou $contador voltas');
-
 }
