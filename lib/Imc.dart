@@ -14,14 +14,9 @@ class Imc {
     print('Qual seu peso?');
     String? pesoS = stdin.readLineSync();
 
-    int idade = 0;
     double altura = 0;
     double peso = 0;
     double imc = 0;
-
-    if (idadeS != null) {
-      idade = int.parse(idadeS);
-    }
 
     if (alturaS != null) {
       altura = double.parse(alturaS);
@@ -31,9 +26,7 @@ class Imc {
       peso = double.parse(pesoS);
     }
 
-    if (pesoS != 0 && alturaS != 0 && idadeS != 0) {
-      imc = (peso / (altura * altura));
-    }
+    imc = (peso / (altura * altura));
 
     print('$nome, sua idade é: $idadeS anos'
         '\nSua altura é: $alturaS m'

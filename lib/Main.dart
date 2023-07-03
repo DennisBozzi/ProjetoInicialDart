@@ -1,7 +1,12 @@
 import 'Geek.dart';
 import 'Frase.dart';
 import 'Imc.dart';
+import 'Lista.dart';
 
 void main() {
-  Imc.calcula();
+
+  Lista list = Lista();
+
+  list.primeiroWhere(4);
+
 }
