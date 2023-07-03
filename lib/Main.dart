@@ -1,6 +1,7 @@
 import 'Geek.dart';
 import 'Frase.dart';
+import 'Imc.dart';
 
 void main() {
-  Geek();
+  Imc.calcula();
 }
